@@ -65,6 +65,9 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem "byebug"
+  gem 'rubocop-rails'
+  gem 'rubocop'
 end
 
 group :test do
@@ -73,3 +76,5 @@ group :test do
   gem "selenium-webdriver"
 
 end
+
+gem 'dotenv-rails'
